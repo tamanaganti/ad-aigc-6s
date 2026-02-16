@@ -1,0 +1,64 @@
+lambda,model,fusion,seed,mae,pred_csv
+0.0,Concatenation + MLP,concat,42,0.19292385282080157,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/concat_42/test_predictions.csv
+0.0,Concatenation + MLP,concat,123,0.19399441652048646,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/concat_123/test_predictions.csv
+0.0,Concatenation + MLP,concat,999,0.19293388704848446,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/concat_999/test_predictions.csv
+0.0,Standard Attention,standard_attn,42,0.1905429125611299,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/standard_attn_42/test_predictions.csv
+0.0,Standard Attention,standard_attn,123,0.19179743567323373,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/standard_attn_123/test_predictions.csv
+0.0,Standard Attention,standard_attn,999,0.19217009248297198,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/standard_attn_999/test_predictions.csv
+0.0,Quality-Gated Attention,quality_gated,42,0.1908629096411412,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/quality_gated_42/test_predictions.csv
+0.0,Quality-Gated Attention,quality_gated,123,0.190393732264151,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/quality_gated_123/test_predictions.csv
+0.0,Quality-Gated Attention,quality_gated,999,0.19202299717984167,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.00/quality_gated_999/test_predictions.csv
+0.25,Concatenation + MLP,concat,42,0.18477404838293984,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/concat_42/test_predictions.csv
+0.25,Concatenation + MLP,concat,123,0.18618503135014203,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/concat_123/test_predictions.csv
+0.25,Concatenation + MLP,concat,999,0.1854041018127616,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/concat_999/test_predictions.csv
+0.25,Standard Attention,standard_attn,42,0.18181493410877153,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/standard_attn_42/test_predictions.csv
+0.25,Standard Attention,standard_attn,123,0.182656175365635,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/standard_attn_123/test_predictions.csv
+0.25,Standard Attention,standard_attn,999,0.18358822916847428,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/standard_attn_999/test_predictions.csv
+0.25,Quality-Gated Attention,quality_gated,42,0.18198655380143058,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/quality_gated_42/test_predictions.csv
+0.25,Quality-Gated Attention,quality_gated,123,0.18172143623719808,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/quality_gated_123/test_predictions.csv
+0.25,Quality-Gated Attention,quality_gated,999,0.18198726788844938,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.25/quality_gated_999/test_predictions.csv
+0.4,Concatenation + MLP,concat,42,0.18026750831822164,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/concat_42/test_predictions.csv
+0.4,Concatenation + MLP,concat,123,0.18183915774806653,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/concat_123/test_predictions.csv
+0.4,Concatenation + MLP,concat,999,0.1810362111119663,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/concat_999/test_predictions.csv
+0.4,Standard Attention,standard_attn,42,0.17633151871706146,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/standard_attn_42/test_predictions.csv
+0.4,Standard Attention,standard_attn,123,0.17649889245531916,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/standard_attn_123/test_predictions.csv
+0.4,Standard Attention,standard_attn,999,0.17778233316988726,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/standard_attn_999/test_predictions.csv
+0.4,Quality-Gated Attention,quality_gated,42,0.17680457779784609,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/quality_gated_42/test_predictions.csv
+0.4,Quality-Gated Attention,quality_gated,123,0.17620219261038536,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/quality_gated_123/test_predictions.csv
+0.4,Quality-Gated Attention,quality_gated,999,0.1766803040613536,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.40/quality_gated_999/test_predictions.csv
+0.5,Concatenation + MLP,concat,42,0.17727241523904738,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/concat_42/test_predictions.csv
+0.5,Concatenation + MLP,concat,123,0.17522183041167416,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/concat_123/test_predictions.csv
+0.5,Concatenation + MLP,concat,999,0.17832625107048383,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/concat_999/test_predictions.csv
+0.5,Standard Attention,standard_attn,42,0.1727062015751608,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/standard_attn_42/test_predictions.csv
+0.5,Standard Attention,standard_attn,123,0.17367100014406092,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/standard_attn_123/test_predictions.csv
+0.5,Standard Attention,standard_attn,999,0.17389797969581255,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/standard_attn_999/test_predictions.csv
+0.5,Quality-Gated Attention,quality_gated,42,0.17330768490149304,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_42/test_predictions.csv
+0.5,Quality-Gated Attention,quality_gated,123,0.17271640760446685,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/test_predictions.csv
+0.5,Quality-Gated Attention,quality_gated,999,0.17341852343939487,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_999/test_predictions.csv
+0.6,Concatenation + MLP,concat,42,0.17433830336028455,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/concat_42/test_predictions.csv
+0.6,Concatenation + MLP,concat,123,0.17175292072732465,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/concat_123/test_predictions.csv
+0.6,Concatenation + MLP,concat,999,0.17106865239299202,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/concat_999/test_predictions.csv
+0.6,Standard Attention,standard_attn,42,0.16992640222599303,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/standard_attn_42/test_predictions.csv
+0.6,Standard Attention,standard_attn,123,0.1700237549208348,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/standard_attn_123/test_predictions.csv
+0.6,Standard Attention,standard_attn,999,0.1694713269962984,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/standard_attn_999/test_predictions.csv
+0.6,Quality-Gated Attention,quality_gated,42,0.16971491812880524,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/quality_gated_42/test_predictions.csv
+0.6,Quality-Gated Attention,quality_gated,123,0.1692874577699923,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/quality_gated_123/test_predictions.csv
+0.6,Quality-Gated Attention,quality_gated,999,0.16974681187299342,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.60/quality_gated_999/test_predictions.csv
+0.75,Concatenation + MLP,concat,42,0.166185516352747,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/concat_42/test_predictions.csv
+0.75,Concatenation + MLP,concat,123,0.16613608598709106,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/concat_123/test_predictions.csv
+0.75,Concatenation + MLP,concat,999,0.16589161909483616,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/concat_999/test_predictions.csv
+0.75,Standard Attention,standard_attn,42,0.16469409711220684,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/standard_attn_42/test_predictions.csv
+0.75,Standard Attention,standard_attn,123,0.1646281504163555,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/standard_attn_123/test_predictions.csv
+0.75,Standard Attention,standard_attn,999,0.16472237659435646,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/standard_attn_999/test_predictions.csv
+0.75,Quality-Gated Attention,quality_gated,42,0.16462270516196106,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/quality_gated_42/test_predictions.csv
+0.75,Quality-Gated Attention,quality_gated,123,0.1643213310272865,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/quality_gated_123/test_predictions.csv
+0.75,Quality-Gated Attention,quality_gated,999,0.16474640466808493,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.75/quality_gated_999/test_predictions.csv
+1.0,Concatenation + MLP,concat,42,0.15683210460968267,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/concat_42/test_predictions.csv
+1.0,Concatenation + MLP,concat,123,0.1572677064565272,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/concat_123/test_predictions.csv
+1.0,Concatenation + MLP,concat,999,0.15648620054612752,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/concat_999/test_predictions.csv
+1.0,Standard Attention,standard_attn,42,0.15607366647595675,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/standard_attn_42/test_predictions.csv
+1.0,Standard Attention,standard_attn,123,0.15642686275874867,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/standard_attn_123/test_predictions.csv
+1.0,Standard Attention,standard_attn,999,0.15594114450847402,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/standard_attn_999/test_predictions.csv
+1.0,Quality-Gated Attention,quality_gated,42,0.15654328504419016,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/quality_gated_42/test_predictions.csv
+1.0,Quality-Gated Attention,quality_gated,123,0.15676268720938488,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/quality_gated_123/test_predictions.csv
+1.0,Quality-Gated Attention,quality_gated,999,0.15613604137320924,/workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_1.00/quality_gated_999/test_predictions.csv

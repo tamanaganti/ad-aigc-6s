@@ -1,0 +1,10 @@
+model,fusion,seed,mae,pred_csv
+Concat,concat,42,0.1780925521663591,experiments/robustness/concat_42/test_predictions.csv
+Concat,concat,123,0.17587613669875402,experiments/robustness/concat_123/test_predictions.csv
+Concat,concat,999,0.17824583154877807,experiments/robustness/concat_999/test_predictions.csv
+Standard Attn,standard_attn,42,0.1761772792323742,experiments/robustness/standard_attn_42/test_predictions.csv
+Standard Attn,standard_attn,123,0.17469361950369441,experiments/robustness/standard_attn_123/test_predictions.csv
+Standard Attn,standard_attn,999,0.17470349166907517,experiments/robustness/standard_attn_999/test_predictions.csv
+Quality Gated,quality_gated,42,0.17264824832966125,experiments/robustness/quality_gated_42/test_predictions.csv
+Quality Gated,quality_gated,123,0.17398412788615508,experiments/robustness/quality_gated_123/test_predictions.csv
+Quality Gated,quality_gated,999,0.17594965415842392,experiments/robustness/quality_gated_999/test_predictions.csv

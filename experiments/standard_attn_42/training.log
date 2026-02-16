@@ -1,0 +1,24 @@
+2026-02-08 02:18:29,723 - INFO -  Logging training progress to: experiments/standard_attn_42/training.log
+2026-02-08 02:18:29,869 - INFO -  Training on 1220 samples
+2026-02-08 02:18:29,869 - INFO -  Distributed: False (World size: 1)
+2026-02-08 02:18:30,811 - INFO - Epoch 1/50 | Train Loss: 0.1479 (Retained MAE: 0.1843) | Val Loss: 0.1122 (Retained MAE: 0.1733)
+2026-02-08 02:18:30,827 - INFO -  Model saved to experiments/standard_attn_42/best_model.pt
+2026-02-08 02:18:30,827 - INFO -  New Best Model (Val Loss: 0.1122)
+2026-02-08 02:18:31,456 - INFO - Epoch 2/50 | Train Loss: 0.1040 (Retained MAE: 0.1764) | Val Loss: 0.0822 (Retained MAE: 0.1688)
+2026-02-08 02:18:31,469 - INFO -  Model saved to experiments/standard_attn_42/best_model.pt
+2026-02-08 02:18:31,469 - INFO -  New Best Model (Val Loss: 0.0822)
+2026-02-08 02:18:32,102 - INFO - Epoch 3/50 | Train Loss: 0.0902 (Retained MAE: 0.1751) | Val Loss: 0.0780 (Retained MAE: 0.1688)
+2026-02-08 02:18:32,116 - INFO -  Model saved to experiments/standard_attn_42/best_model.pt
+2026-02-08 02:18:32,117 - INFO -  New Best Model (Val Loss: 0.0780)
+2026-02-08 02:18:32,746 - INFO - Epoch 4/50 | Train Loss: 0.0903 (Retained MAE: 0.1740) | Val Loss: 0.0785 (Retained MAE: 0.1687)
+2026-02-08 02:18:33,358 - INFO - Epoch 5/50 | Train Loss: 0.0900 (Retained MAE: 0.1742) | Val Loss: 0.0783 (Retained MAE: 0.1688)
+2026-02-08 02:18:33,971 - INFO - Epoch 6/50 | Train Loss: 0.0880 (Retained MAE: 0.1734) | Val Loss: 0.0782 (Retained MAE: 0.1685)
+2026-02-08 02:18:34,630 - INFO - Epoch 7/50 | Train Loss: 0.0883 (Retained MAE: 0.1732) | Val Loss: 0.0786 (Retained MAE: 0.1686)
+2026-02-08 02:18:35,250 - INFO - Epoch 8/50 | Train Loss: 0.0885 (Retained MAE: 0.1729) | Val Loss: 0.0782 (Retained MAE: 0.1682)
+2026-02-08 02:18:35,846 - INFO - Epoch 9/50 | Train Loss: 0.0887 (Retained MAE: 0.1723) | Val Loss: 0.0784 (Retained MAE: 0.1683)
+2026-02-08 02:18:36,449 - INFO - Epoch 10/50 | Train Loss: 0.0881 (Retained MAE: 0.1720) | Val Loss: 0.0784 (Retained MAE: 0.1679)
+2026-02-08 02:18:37,053 - INFO - Epoch 11/50 | Train Loss: 0.0878 (Retained MAE: 0.1713) | Val Loss: 0.0786 (Retained MAE: 0.1677)
+2026-02-08 02:18:37,678 - INFO - Epoch 12/50 | Train Loss: 0.0866 (Retained MAE: 0.1707) | Val Loss: 0.0786 (Retained MAE: 0.1672)
+2026-02-08 02:18:38,292 - INFO - Epoch 13/50 | Train Loss: 0.0871 (Retained MAE: 0.1693) | Val Loss: 0.0788 (Retained MAE: 0.1668)
+2026-02-08 02:18:38,292 - INFO -  Early stopping triggered after 13 epochs.
+2026-02-08 02:18:38,303 - INFO -  Model saved to experiments/standard_attn_42/final_model.pt

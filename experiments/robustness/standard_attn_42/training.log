@@ -1,0 +1,24 @@
+2026-02-08 03:46:24,755 - INFO -  Logging training progress to: /workspace/ad_pipeline/experiments/robustness/standard_attn_42/training.log
+2026-02-08 03:46:24,879 - INFO -  Training on 1220 samples
+2026-02-08 03:46:24,879 - INFO -  Distributed: False (World size: 1)
+2026-02-08 03:46:25,816 - INFO - Epoch 1/50 | Train Loss: 0.1479 (Retained MAE: 0.1843) | Val Loss: 0.1122 (Retained MAE: 0.1733)
+2026-02-08 03:46:25,830 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/standard_attn_42/best_model.pt
+2026-02-08 03:46:25,830 - INFO -  New Best Model (Val Loss: 0.1122)
+2026-02-08 03:46:26,438 - INFO - Epoch 2/50 | Train Loss: 0.1040 (Retained MAE: 0.1764) | Val Loss: 0.0822 (Retained MAE: 0.1688)
+2026-02-08 03:46:26,451 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/standard_attn_42/best_model.pt
+2026-02-08 03:46:26,451 - INFO -  New Best Model (Val Loss: 0.0822)
+2026-02-08 03:46:27,086 - INFO - Epoch 3/50 | Train Loss: 0.0902 (Retained MAE: 0.1751) | Val Loss: 0.0780 (Retained MAE: 0.1688)
+2026-02-08 03:46:27,099 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/standard_attn_42/best_model.pt
+2026-02-08 03:46:27,099 - INFO -  New Best Model (Val Loss: 0.0780)
+2026-02-08 03:46:27,710 - INFO - Epoch 4/50 | Train Loss: 0.0903 (Retained MAE: 0.1740) | Val Loss: 0.0785 (Retained MAE: 0.1687)
+2026-02-08 03:46:28,325 - INFO - Epoch 5/50 | Train Loss: 0.0900 (Retained MAE: 0.1742) | Val Loss: 0.0783 (Retained MAE: 0.1688)
+2026-02-08 03:46:28,959 - INFO - Epoch 6/50 | Train Loss: 0.0880 (Retained MAE: 0.1734) | Val Loss: 0.0782 (Retained MAE: 0.1685)
+2026-02-08 03:46:29,573 - INFO - Epoch 7/50 | Train Loss: 0.0883 (Retained MAE: 0.1732) | Val Loss: 0.0786 (Retained MAE: 0.1686)
+2026-02-08 03:46:30,188 - INFO - Epoch 8/50 | Train Loss: 0.0885 (Retained MAE: 0.1729) | Val Loss: 0.0782 (Retained MAE: 0.1682)
+2026-02-08 03:46:30,801 - INFO - Epoch 9/50 | Train Loss: 0.0887 (Retained MAE: 0.1723) | Val Loss: 0.0784 (Retained MAE: 0.1683)
+2026-02-08 03:46:31,405 - INFO - Epoch 10/50 | Train Loss: 0.0881 (Retained MAE: 0.1720) | Val Loss: 0.0784 (Retained MAE: 0.1679)
+2026-02-08 03:46:32,038 - INFO - Epoch 11/50 | Train Loss: 0.0878 (Retained MAE: 0.1713) | Val Loss: 0.0786 (Retained MAE: 0.1677)
+2026-02-08 03:46:32,663 - INFO - Epoch 12/50 | Train Loss: 0.0866 (Retained MAE: 0.1707) | Val Loss: 0.0786 (Retained MAE: 0.1672)
+2026-02-08 03:46:33,262 - INFO - Epoch 13/50 | Train Loss: 0.0871 (Retained MAE: 0.1693) | Val Loss: 0.0788 (Retained MAE: 0.1668)
+2026-02-08 03:46:33,263 - INFO -  Early stopping triggered after 13 epochs.
+2026-02-08 03:46:33,274 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/standard_attn_42/final_model.pt

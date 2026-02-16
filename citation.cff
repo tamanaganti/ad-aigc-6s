@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Ad-AIGC-6s: A Benchmark for Studying Persuasion Retention in AI-Generated Short-Form Video Advertisements"
+authors:
+  - family-names: Amanaganti
+    given-names: Tharun Kumar Reddy
+    affiliation: Independent Researcher
+    email: ad-aigc-6s@atreddy.com
+version: 1.0.0
+date-released: 2026-02-15
+url: https://github.com/tamanaganti/ad-aigc-6s
+preferred-citation:
+  type: article
+  title: "Ad-AIGC-6s: A Benchmark for Studying Persuasion Retention in AI-Generated Short-Form Video Advertisements"
+  authors:
+    - family-names: Amanaganti
+      given-names: Tharun Kumar Reddy
+  journal: IEEE Transactions on Multimedia

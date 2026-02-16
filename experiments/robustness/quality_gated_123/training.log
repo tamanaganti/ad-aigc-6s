@@ -1,0 +1,39 @@
+2026-02-08 03:47:44,306 - INFO -  Logging training progress to: /workspace/ad_pipeline/experiments/robustness/quality_gated_123/training.log
+2026-02-08 03:47:44,438 - INFO -  Training on 1220 samples
+2026-02-08 03:47:44,438 - INFO -  Distributed: False (World size: 1)
+2026-02-08 03:47:45,399 - INFO - Epoch 1/50 | Train Loss: 0.1458 (Retained MAE: 0.1825) | Val Loss: 0.1073 (Retained MAE: 0.1723)
+2026-02-08 03:47:45,415 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/best_model.pt
+2026-02-08 03:47:45,416 - INFO -  New Best Model (Val Loss: 0.1073)
+2026-02-08 03:47:46,051 - INFO - Epoch 2/50 | Train Loss: 0.1017 (Retained MAE: 0.1755) | Val Loss: 0.0800 (Retained MAE: 0.1692)
+2026-02-08 03:47:46,066 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/best_model.pt
+2026-02-08 03:47:46,066 - INFO -  New Best Model (Val Loss: 0.0800)
+2026-02-08 03:47:46,697 - INFO - Epoch 3/50 | Train Loss: 0.0909 (Retained MAE: 0.1745) | Val Loss: 0.0787 (Retained MAE: 0.1689)
+2026-02-08 03:47:46,711 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/best_model.pt
+2026-02-08 03:47:46,712 - INFO -  New Best Model (Val Loss: 0.0787)
+2026-02-08 03:47:47,337 - INFO - Epoch 4/50 | Train Loss: 0.0903 (Retained MAE: 0.1741) | Val Loss: 0.0790 (Retained MAE: 0.1692)
+2026-02-08 03:47:47,956 - INFO - Epoch 5/50 | Train Loss: 0.0897 (Retained MAE: 0.1739) | Val Loss: 0.0782 (Retained MAE: 0.1686)
+2026-02-08 03:47:47,971 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/best_model.pt
+2026-02-08 03:47:47,971 - INFO -  New Best Model (Val Loss: 0.0782)
+2026-02-08 03:47:48,600 - INFO - Epoch 6/50 | Train Loss: 0.0890 (Retained MAE: 0.1732) | Val Loss: 0.0784 (Retained MAE: 0.1686)
+2026-02-08 03:47:49,207 - INFO - Epoch 7/50 | Train Loss: 0.0884 (Retained MAE: 0.1733) | Val Loss: 0.0783 (Retained MAE: 0.1685)
+2026-02-08 03:47:49,837 - INFO - Epoch 8/50 | Train Loss: 0.0889 (Retained MAE: 0.1727) | Val Loss: 0.0783 (Retained MAE: 0.1684)
+2026-02-08 03:47:50,460 - INFO - Epoch 9/50 | Train Loss: 0.0882 (Retained MAE: 0.1722) | Val Loss: 0.0782 (Retained MAE: 0.1682)
+2026-02-08 03:47:50,474 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/best_model.pt
+2026-02-08 03:47:50,474 - INFO -  New Best Model (Val Loss: 0.0782)
+2026-02-08 03:47:51,098 - INFO - Epoch 10/50 | Train Loss: 0.0872 (Retained MAE: 0.1716) | Val Loss: 0.0782 (Retained MAE: 0.1680)
+2026-02-08 03:47:51,736 - INFO - Epoch 11/50 | Train Loss: 0.0876 (Retained MAE: 0.1713) | Val Loss: 0.0784 (Retained MAE: 0.1679)
+2026-02-08 03:47:52,374 - INFO - Epoch 12/50 | Train Loss: 0.0861 (Retained MAE: 0.1698) | Val Loss: 0.0782 (Retained MAE: 0.1678)
+2026-02-08 03:47:52,388 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/best_model.pt
+2026-02-08 03:47:52,388 - INFO -  New Best Model (Val Loss: 0.0782)
+2026-02-08 03:47:53,008 - INFO - Epoch 13/50 | Train Loss: 0.0845 (Retained MAE: 0.1683) | Val Loss: 0.0783 (Retained MAE: 0.1676)
+2026-02-08 03:47:53,624 - INFO - Epoch 14/50 | Train Loss: 0.0847 (Retained MAE: 0.1676) | Val Loss: 0.0786 (Retained MAE: 0.1674)
+2026-02-08 03:47:54,258 - INFO - Epoch 15/50 | Train Loss: 0.0842 (Retained MAE: 0.1658) | Val Loss: 0.0789 (Retained MAE: 0.1672)
+2026-02-08 03:47:54,873 - INFO - Epoch 16/50 | Train Loss: 0.0828 (Retained MAE: 0.1646) | Val Loss: 0.0794 (Retained MAE: 0.1674)
+2026-02-08 03:47:55,495 - INFO - Epoch 17/50 | Train Loss: 0.0804 (Retained MAE: 0.1619) | Val Loss: 0.0800 (Retained MAE: 0.1675)
+2026-02-08 03:47:56,152 - INFO - Epoch 18/50 | Train Loss: 0.0809 (Retained MAE: 0.1618) | Val Loss: 0.0807 (Retained MAE: 0.1680)
+2026-02-08 03:47:56,784 - INFO - Epoch 19/50 | Train Loss: 0.0785 (Retained MAE: 0.1578) | Val Loss: 0.0814 (Retained MAE: 0.1682)
+2026-02-08 03:47:57,400 - INFO - Epoch 20/50 | Train Loss: 0.0769 (Retained MAE: 0.1548) | Val Loss: 0.0822 (Retained MAE: 0.1689)
+2026-02-08 03:47:58,032 - INFO - Epoch 21/50 | Train Loss: 0.0750 (Retained MAE: 0.1529) | Val Loss: 0.0833 (Retained MAE: 0.1705)
+2026-02-08 03:47:58,665 - INFO - Epoch 22/50 | Train Loss: 0.0746 (Retained MAE: 0.1495) | Val Loss: 0.0836 (Retained MAE: 0.1691)
+2026-02-08 03:47:58,665 - INFO -  Early stopping triggered after 22 epochs.
+2026-02-08 03:47:58,680 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/quality_gated_123/final_model.pt

@@ -1,0 +1,108 @@
+data:
+  ad_aigc_6s:
+    alpha: 0.5
+    clip_duration: 6.0
+    max_samples: null
+    name: ad_aigc_6s
+    num_workers: 4
+    path: data/metadata/ad_aigc_6s_main_experiment.csv
+    pin_memory: true
+    prefetch_factor: 2
+    quality_aggregation_weights:
+      evalcrafter_weight: 0.4
+      vbench_weight: 0.6
+    test_split: 0.1
+    train_split: 0.8
+    val_split: 0.1
+device: cuda
+experiment_name: retention_chained_svd_A100
+features:
+  audio:
+    enabled: false
+  biometric:
+    enabled: false
+  visual:
+    model_name: ViT-B/32
+interpretability:
+  enabled: true
+  methods:
+  - shap
+  - attention_weights
+  top_k_features: 10
+log_dir: logs
+mode: train
+model_ad_aigc_6s:
+  enable_real_task: true
+  enable_retention_task: true
+  fusion:
+    dropout: 0.1
+    hidden_dim: 256
+    num_heads: 4
+    num_layers: 3
+    type: concat
+  heads:
+    ad_aigc_6s_ai:
+      hidden_dims:
+      - 128
+      - 64
+      output_dim: 1
+    ad_aigc_6s_real:
+      hidden_dims:
+      - 128
+      - 64
+      output_dim: 1
+  input_dims:
+    quality: 33
+    semantic_drift: 2
+    text: 512
+    visual: 512
+  quality_columns:
+  - vbench_aesthetic_quality
+  - vbench_blockiness
+  - vbench_subject_consistency
+  - vbench_motion_smoothness
+  - vbench_temporal_flicker
+  - vbench_dynamic_degree
+  - vbench_brightness_consistency
+  - vbench_contrast_consistency
+  - vbench_color_consistency
+  - vbench_saturation_consistency
+  - vbench_sharpness_consistency
+  - vbench_noise_level
+  - vbench_edge_consistency
+  - vbench_camera_shake
+  - vbench_scene_change_rate
+  - vbench_black_frame_ratio
+  - evalcrafter_detail_preservation
+  - evalcrafter_color_shift
+  - evalcrafter_exposure_clipping
+  - evalcrafter_flow_magnitude_mean
+  - evalcrafter_flow_magnitude_std
+  - evalcrafter_flow_direction_std
+  - evalcrafter_flow_inconsistency
+  - evalcrafter_ghosting_proxy
+  - evalcrafter_temporal_ssim_proxy
+  - evalcrafter_temporal_edge_flicker
+  - evalcrafter_white_balance_drift
+  - evalcrafter_over_smoothing
+  - evalcrafter_frame_drop_indicator
+  - evalcrafter_temporal_blur_increase
+  - evalcrafter_flicker_frequency_proxy
+  - evalcrafter_motion_jerk
+  - evalcrafter_spatial_jitter
+output_dir: outputs
+project_name: ad_aigc_6s
+seed: 42
+task: ad_aigc_6s_ai
+training:
+  batch_size: 128
+  gradient_clip_norm: 1.0
+  learning_rate: 1e-4
+  num_epochs: 50
+  optimizer: adamw
+  output_dir: experiments/concat_42
+  patience: 10
+  scheduler: cosine
+  seed: 42
+  warmup_steps: 1000
+  weight_decay: 1e-5

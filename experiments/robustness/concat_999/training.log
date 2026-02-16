@@ -1,0 +1,33 @@
+2026-02-08 03:46:05,509 - INFO -  Logging training progress to: /workspace/ad_pipeline/experiments/robustness/concat_999/training.log
+2026-02-08 03:46:05,640 - INFO -  Training on 1220 samples
+2026-02-08 03:46:05,640 - INFO -  Distributed: False (World size: 1)
+2026-02-08 03:46:06,568 - INFO - Epoch 1/50 | Train Loss: 0.1587 (Retained MAE: 0.1872) | Val Loss: 0.1484 (Retained MAE: 0.1798)
+2026-02-08 03:46:06,581 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/best_model.pt
+2026-02-08 03:46:06,581 - INFO -  New Best Model (Val Loss: 0.1484)
+2026-02-08 03:46:07,175 - INFO - Epoch 2/50 | Train Loss: 0.1343 (Retained MAE: 0.1803) | Val Loss: 0.1181 (Retained MAE: 0.1726)
+2026-02-08 03:46:07,186 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/best_model.pt
+2026-02-08 03:46:07,186 - INFO -  New Best Model (Val Loss: 0.1181)
+2026-02-08 03:46:07,759 - INFO - Epoch 3/50 | Train Loss: 0.1081 (Retained MAE: 0.1743) | Val Loss: 0.0906 (Retained MAE: 0.1690)
+2026-02-08 03:46:07,770 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/best_model.pt
+2026-02-08 03:46:07,770 - INFO -  New Best Model (Val Loss: 0.0906)
+2026-02-08 03:46:08,370 - INFO - Epoch 4/50 | Train Loss: 0.0938 (Retained MAE: 0.1753) | Val Loss: 0.0788 (Retained MAE: 0.1691)
+2026-02-08 03:46:08,381 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/best_model.pt
+2026-02-08 03:46:08,381 - INFO -  New Best Model (Val Loss: 0.0788)
+2026-02-08 03:46:08,965 - INFO - Epoch 5/50 | Train Loss: 0.0901 (Retained MAE: 0.1738) | Val Loss: 0.0785 (Retained MAE: 0.1692)
+2026-02-08 03:46:08,976 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/best_model.pt
+2026-02-08 03:46:08,976 - INFO -  New Best Model (Val Loss: 0.0785)
+2026-02-08 03:46:09,560 - INFO - Epoch 6/50 | Train Loss: 0.0909 (Retained MAE: 0.1744) | Val Loss: 0.0785 (Retained MAE: 0.1692)
+2026-02-08 03:46:09,570 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/best_model.pt
+2026-02-08 03:46:09,570 - INFO -  New Best Model (Val Loss: 0.0785)
+2026-02-08 03:46:10,141 - INFO - Epoch 7/50 | Train Loss: 0.0894 (Retained MAE: 0.1739) | Val Loss: 0.0789 (Retained MAE: 0.1689)
+2026-02-08 03:46:10,708 - INFO - Epoch 8/50 | Train Loss: 0.0880 (Retained MAE: 0.1735) | Val Loss: 0.0795 (Retained MAE: 0.1689)
+2026-02-08 03:46:11,290 - INFO - Epoch 9/50 | Train Loss: 0.0878 (Retained MAE: 0.1734) | Val Loss: 0.0788 (Retained MAE: 0.1686)
+2026-02-08 03:46:11,885 - INFO - Epoch 10/50 | Train Loss: 0.0881 (Retained MAE: 0.1726) | Val Loss: 0.0790 (Retained MAE: 0.1688)
+2026-02-08 03:46:12,476 - INFO - Epoch 11/50 | Train Loss: 0.0876 (Retained MAE: 0.1721) | Val Loss: 0.0786 (Retained MAE: 0.1684)
+2026-02-08 03:46:13,074 - INFO - Epoch 12/50 | Train Loss: 0.0878 (Retained MAE: 0.1722) | Val Loss: 0.0790 (Retained MAE: 0.1684)
+2026-02-08 03:46:13,650 - INFO - Epoch 13/50 | Train Loss: 0.0873 (Retained MAE: 0.1718) | Val Loss: 0.0791 (Retained MAE: 0.1683)
+2026-02-08 03:46:14,192 - INFO - Epoch 14/50 | Train Loss: 0.0863 (Retained MAE: 0.1702) | Val Loss: 0.0794 (Retained MAE: 0.1682)
+2026-02-08 03:46:14,705 - INFO - Epoch 15/50 | Train Loss: 0.0848 (Retained MAE: 0.1692) | Val Loss: 0.0794 (Retained MAE: 0.1680)
+2026-02-08 03:46:15,227 - INFO - Epoch 16/50 | Train Loss: 0.0842 (Retained MAE: 0.1681) | Val Loss: 0.0799 (Retained MAE: 0.1680)
+2026-02-08 03:46:15,227 - INFO -  Early stopping triggered after 16 epochs.
+2026-02-08 03:46:15,238 - INFO -  Model saved to /workspace/ad_pipeline/experiments/robustness/concat_999/final_model.pt

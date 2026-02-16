@@ -1,0 +1,21 @@
+\begin{tabular}{|l|c|c|c|}
+\hline
+Method & MAE $\downarrow$ & RMSE $\downarrow$ & Within $\pm 0.10$ $\uparrow$ \\
+\hline
+Linear Oracle [\$P\_\{real\}, \textbackslash\{\}bar\{Q\}\_\{ai\}, S\_\{sim\}\$] & 0.0068 $\pm$ 0.0000 & 0.0089 $\pm$ 0.0000 & 1.0000 $\pm$ 0.0000 \\
+\hline
+Mean Prediction & 0.1786 $\pm$ 0.0000 & 0.1888 $\pm$ 0.0000 & 0.1046 $\pm$ 0.0000 \\
+\hline
+Linear [\$\textbackslash\{\}bar\{Q\}\_\{ai\}\$] & 0.1768 $\pm$ 0.0000 & 0.1870 $\pm$ 0.0000 & 0.1111 $\pm$ 0.0000 \\
+\hline
+Linear [\$S\_\{sim\}\$] & 0.1750 $\pm$ 0.0000 & 0.1848 $\pm$ 0.0000 & 0.1111 $\pm$ 0.0000 \\
+\hline
+Linear [\$\textbackslash\{\}bar\{Q\}\_\{ai\}, S\_\{sim\}\$] & 0.1736 $\pm$ 0.0000 & 0.1827 $\pm$ 0.0000 & 0.1046 $\pm$ 0.0000 \\
+\hline
+Concatenation + MLP & 0.1774 $\pm$ 0.0011 & 0.1878 $\pm$ 0.0008 & 0.1111 $\pm$ 0.0092 \\
+\hline
+Standard Attention & 0.1752 $\pm$ 0.0007 & 0.1860 $\pm$ 0.0005 & 0.1176 $\pm$ 0.0000 \\
+\hline
+Quality-Gated Attention & 0.1742 $\pm$ 0.0014 & 0.1852 $\pm$ 0.0012 & 0.1242 $\pm$ 0.0053 \\
+\hline
+\end{tabular}

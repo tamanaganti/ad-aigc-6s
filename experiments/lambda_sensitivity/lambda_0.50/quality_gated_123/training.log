@@ -1,0 +1,87 @@
+2026-02-13 20:55:22,977 - INFO -  Logging training progress to: /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/training.log
+2026-02-13 20:55:23,115 - INFO -  Training on 1220 samples
+2026-02-13 20:55:23,115 - INFO -  Distributed: False (World size: 1)
+2026-02-13 20:55:24,191 - INFO - Epoch 1/50 | Train Loss: 0.1483 (Retained MAE: 0.1828) | Val Loss: 0.1122 (Retained MAE: 0.1715)
+2026-02-13 20:55:24,210 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:24,210 - INFO -  New Best Model (Val Loss: 0.1122)
+2026-02-13 20:55:24,884 - INFO - Epoch 2/50 | Train Loss: 0.1055 (Retained MAE: 0.1753) | Val Loss: 0.0819 (Retained MAE: 0.1691)
+2026-02-13 20:55:24,899 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:24,899 - INFO -  New Best Model (Val Loss: 0.0819)
+2026-02-13 20:55:25,553 - INFO - Epoch 3/50 | Train Loss: 0.0918 (Retained MAE: 0.1750) | Val Loss: 0.0785 (Retained MAE: 0.1689)
+2026-02-13 20:55:25,568 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:25,568 - INFO -  New Best Model (Val Loss: 0.0785)
+2026-02-13 20:55:26,276 - INFO - Epoch 4/50 | Train Loss: 0.0909 (Retained MAE: 0.1749) | Val Loss: 0.0792 (Retained MAE: 0.1690)
+2026-02-13 20:55:26,969 - INFO - Epoch 5/50 | Train Loss: 0.0908 (Retained MAE: 0.1747) | Val Loss: 0.0783 (Retained MAE: 0.1687)
+2026-02-13 20:55:26,984 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:26,985 - INFO -  New Best Model (Val Loss: 0.0783)
+2026-02-13 20:55:27,678 - INFO - Epoch 6/50 | Train Loss: 0.0901 (Retained MAE: 0.1748) | Val Loss: 0.0782 (Retained MAE: 0.1686)
+2026-02-13 20:55:27,693 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:27,694 - INFO -  New Best Model (Val Loss: 0.0782)
+2026-02-13 20:55:28,354 - INFO - Epoch 7/50 | Train Loss: 0.0895 (Retained MAE: 0.1746) | Val Loss: 0.0782 (Retained MAE: 0.1685)
+2026-02-13 20:55:28,368 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:28,368 - INFO -  New Best Model (Val Loss: 0.0782)
+2026-02-13 20:55:29,054 - INFO - Epoch 8/50 | Train Loss: 0.0905 (Retained MAE: 0.1744) | Val Loss: 0.0781 (Retained MAE: 0.1684)
+2026-02-13 20:55:29,071 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:29,071 - INFO -  New Best Model (Val Loss: 0.0781)
+2026-02-13 20:55:29,781 - INFO - Epoch 9/50 | Train Loss: 0.0898 (Retained MAE: 0.1742) | Val Loss: 0.0780 (Retained MAE: 0.1681)
+2026-02-13 20:55:29,797 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:29,797 - INFO -  New Best Model (Val Loss: 0.0780)
+2026-02-13 20:55:30,504 - INFO - Epoch 10/50 | Train Loss: 0.0896 (Retained MAE: 0.1743) | Val Loss: 0.0780 (Retained MAE: 0.1680)
+2026-02-13 20:55:30,519 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:30,519 - INFO -  New Best Model (Val Loss: 0.0780)
+2026-02-13 20:55:31,211 - INFO - Epoch 11/50 | Train Loss: 0.0903 (Retained MAE: 0.1744) | Val Loss: 0.0781 (Retained MAE: 0.1680)
+2026-02-13 20:55:31,894 - INFO - Epoch 12/50 | Train Loss: 0.0894 (Retained MAE: 0.1739) | Val Loss: 0.0778 (Retained MAE: 0.1676)
+2026-02-13 20:55:31,909 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:31,909 - INFO -  New Best Model (Val Loss: 0.0778)
+2026-02-13 20:55:32,542 - INFO - Epoch 13/50 | Train Loss: 0.0884 (Retained MAE: 0.1731) | Val Loss: 0.0777 (Retained MAE: 0.1674)
+2026-02-13 20:55:32,557 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:32,557 - INFO -  New Best Model (Val Loss: 0.0777)
+2026-02-13 20:55:33,230 - INFO - Epoch 14/50 | Train Loss: 0.0899 (Retained MAE: 0.1735) | Val Loss: 0.0777 (Retained MAE: 0.1671)
+2026-02-13 20:55:33,920 - INFO - Epoch 15/50 | Train Loss: 0.0894 (Retained MAE: 0.1736) | Val Loss: 0.0776 (Retained MAE: 0.1668)
+2026-02-13 20:55:33,935 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:33,935 - INFO -  New Best Model (Val Loss: 0.0776)
+2026-02-13 20:55:34,625 - INFO - Epoch 16/50 | Train Loss: 0.0897 (Retained MAE: 0.1737) | Val Loss: 0.0774 (Retained MAE: 0.1668)
+2026-02-13 20:55:34,642 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:34,642 - INFO -  New Best Model (Val Loss: 0.0774)
+2026-02-13 20:55:35,339 - INFO - Epoch 17/50 | Train Loss: 0.0880 (Retained MAE: 0.1729) | Val Loss: 0.0776 (Retained MAE: 0.1665)
+2026-02-13 20:55:36,018 - INFO - Epoch 18/50 | Train Loss: 0.0895 (Retained MAE: 0.1739) | Val Loss: 0.0775 (Retained MAE: 0.1663)
+2026-02-13 20:55:36,694 - INFO - Epoch 19/50 | Train Loss: 0.0888 (Retained MAE: 0.1729) | Val Loss: 0.0773 (Retained MAE: 0.1662)
+2026-02-13 20:55:36,709 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:36,709 - INFO -  New Best Model (Val Loss: 0.0773)
+2026-02-13 20:55:37,356 - INFO - Epoch 20/50 | Train Loss: 0.0891 (Retained MAE: 0.1733) | Val Loss: 0.0774 (Retained MAE: 0.1659)
+2026-02-13 20:55:38,050 - INFO - Epoch 21/50 | Train Loss: 0.0885 (Retained MAE: 0.1727) | Val Loss: 0.0772 (Retained MAE: 0.1657)
+2026-02-13 20:55:38,064 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:38,064 - INFO -  New Best Model (Val Loss: 0.0772)
+2026-02-13 20:55:38,726 - INFO - Epoch 22/50 | Train Loss: 0.0896 (Retained MAE: 0.1726) | Val Loss: 0.0771 (Retained MAE: 0.1659)
+2026-02-13 20:55:38,741 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:38,741 - INFO -  New Best Model (Val Loss: 0.0771)
+2026-02-13 20:55:39,422 - INFO - Epoch 23/50 | Train Loss: 0.0887 (Retained MAE: 0.1720) | Val Loss: 0.0773 (Retained MAE: 0.1654)
+2026-02-13 20:55:40,103 - INFO - Epoch 24/50 | Train Loss: 0.0880 (Retained MAE: 0.1712) | Val Loss: 0.0771 (Retained MAE: 0.1653)
+2026-02-13 20:55:40,119 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:40,120 - INFO -  New Best Model (Val Loss: 0.0771)
+2026-02-13 20:55:40,787 - INFO - Epoch 25/50 | Train Loss: 0.0886 (Retained MAE: 0.1720) | Val Loss: 0.0771 (Retained MAE: 0.1653)
+2026-02-13 20:55:40,801 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:40,802 - INFO -  New Best Model (Val Loss: 0.0771)
+2026-02-13 20:55:41,443 - INFO - Epoch 26/50 | Train Loss: 0.0885 (Retained MAE: 0.1722) | Val Loss: 0.0771 (Retained MAE: 0.1652)
+2026-02-13 20:55:41,458 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:41,458 - INFO -  New Best Model (Val Loss: 0.0771)
+2026-02-13 20:55:42,131 - INFO - Epoch 27/50 | Train Loss: 0.0884 (Retained MAE: 0.1722) | Val Loss: 0.0771 (Retained MAE: 0.1650)
+2026-02-13 20:55:42,783 - INFO - Epoch 28/50 | Train Loss: 0.0878 (Retained MAE: 0.1713) | Val Loss: 0.0771 (Retained MAE: 0.1651)
+2026-02-13 20:55:43,470 - INFO - Epoch 29/50 | Train Loss: 0.0886 (Retained MAE: 0.1733) | Val Loss: 0.0773 (Retained MAE: 0.1647)
+2026-02-13 20:55:44,160 - INFO - Epoch 30/50 | Train Loss: 0.0881 (Retained MAE: 0.1718) | Val Loss: 0.0771 (Retained MAE: 0.1650)
+2026-02-13 20:55:44,828 - INFO - Epoch 31/50 | Train Loss: 0.0877 (Retained MAE: 0.1723) | Val Loss: 0.0771 (Retained MAE: 0.1648)
+2026-02-13 20:55:45,482 - INFO - Epoch 32/50 | Train Loss: 0.0876 (Retained MAE: 0.1714) | Val Loss: 0.0770 (Retained MAE: 0.1650)
+2026-02-13 20:55:45,496 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/best_model.pt
+2026-02-13 20:55:45,497 - INFO -  New Best Model (Val Loss: 0.0770)
+2026-02-13 20:55:46,165 - INFO - Epoch 33/50 | Train Loss: 0.0884 (Retained MAE: 0.1722) | Val Loss: 0.0770 (Retained MAE: 0.1647)
+2026-02-13 20:55:46,852 - INFO - Epoch 34/50 | Train Loss: 0.0875 (Retained MAE: 0.1706) | Val Loss: 0.0770 (Retained MAE: 0.1648)
+2026-02-13 20:55:47,572 - INFO - Epoch 35/50 | Train Loss: 0.0876 (Retained MAE: 0.1711) | Val Loss: 0.0771 (Retained MAE: 0.1647)
+2026-02-13 20:55:48,234 - INFO - Epoch 36/50 | Train Loss: 0.0877 (Retained MAE: 0.1714) | Val Loss: 0.0771 (Retained MAE: 0.1647)
+2026-02-13 20:55:48,904 - INFO - Epoch 37/50 | Train Loss: 0.0886 (Retained MAE: 0.1713) | Val Loss: 0.0771 (Retained MAE: 0.1645)
+2026-02-13 20:55:49,586 - INFO - Epoch 38/50 | Train Loss: 0.0875 (Retained MAE: 0.1721) | Val Loss: 0.0772 (Retained MAE: 0.1644)
+2026-02-13 20:55:50,266 - INFO - Epoch 39/50 | Train Loss: 0.0877 (Retained MAE: 0.1704) | Val Loss: 0.0771 (Retained MAE: 0.1645)
+2026-02-13 20:55:50,950 - INFO - Epoch 40/50 | Train Loss: 0.0879 (Retained MAE: 0.1720) | Val Loss: 0.0771 (Retained MAE: 0.1645)
+2026-02-13 20:55:51,619 - INFO - Epoch 41/50 | Train Loss: 0.0875 (Retained MAE: 0.1707) | Val Loss: 0.0771 (Retained MAE: 0.1646)
+2026-02-13 20:55:52,317 - INFO - Epoch 42/50 | Train Loss: 0.0881 (Retained MAE: 0.1710) | Val Loss: 0.0771 (Retained MAE: 0.1646)
+2026-02-13 20:55:52,318 - INFO -  Early stopping triggered after 42 epochs.
+2026-02-13 20:55:52,331 - INFO -  Model saved to /workspace/ad_pipeline/experiments/lambda_sensitivity/lambda_0.50/quality_gated_123/final_model.pt
