@@ -1,5 +1,7 @@
 # Ad-AIGC-6s — Pipeline, Training, and Artifacts
 
+[![DOI](https://zenodo.org/badge/1158846191.svg)](https://doi.org/10.5281/zenodo.18653639)
+
 This repository provides an end-to-end pipeline for:
 - constructing a real→AI short-form ad dataset (optional; requires lawful local access to videos),
 - computing quality/similarity signals,
